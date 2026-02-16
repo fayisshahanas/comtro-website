@@ -1,0 +1,258 @@
+@media screen and (max-width:1200px){
+.hero-ctn{
+   margin-top: 130px;
+}
+
+.s-cards{
+    height: 220px;
+ }
+ .qr-image img{
+    max-width: 420px;
+    width: 86%;
+    height: auto;
+}
+.qr-ctn{
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.school-ctn .s-cards {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    gap: 10px;
+}
+.qr img{
+   width: 20%;
+}
+.blackimg img{
+    width: 80%;
+    
+}
+#qr-code{
+    background-color: var(--primary-color);
+    color: white;
+    height: 380px;
+    position: relative;
+}
+}
+@media screen and (max-width:992px){
+header nav ul{
+   display: none !important;
+}
+.hero-ctn h1 {
+    font-size: 53px;
+    font-weight: 500;
+    line-height: 1.1;
+   
+}
+.slick-prev {
+    position: absolute;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    border-radius: 100%;
+    padding: 5px 12px;
+    top: 100%;
+    left: 17%;
+}
+.demo-btn{
+    display: none;
+}
+.toggle_btn{
+    display: block !important;
+}
+.banner-box {
+    background-color: white;
+    padding: 8px 8px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+}
+.slider-img{
+    overflow: hidden;
+}
+.hero-ctn{
+   margin-top: 90px;
+}
+.hero-btn {
+    height: 100%;
+    font-size: 15px;
+}
+.hero-imgctn{
+   margin-top:120px ;
+}
+.ftr-ctn p{
+    font-size: 15px;
+}
+.ftr-ctn p{
+    font-size: 15px;
+}
+.ftr-ctn h5{
+    font-size: 18px;
+}
+.banner-box {
+    background-color: white;
+    padding: 8px 8px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+    height: 190px;
+}
+ .sidebar{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        text-align: center;
+    }
+.cards {
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    height: 214px;
+}
+.cards h6{
+    width: 90%;
+}
+.mission-ctn{
+    margin-top: 0px;
+}
+.p-ctn1 {
+    padding: 5px;
+    background: linear-gradient(1deg,white, #dee5ec );
+    border-radius: 10px;
+    height: 271px;
+}
+.p-ctn2{
+    height: 271px
+}
+.priority img{
+    width: 85%;
+}
+p{
+    font-size: 16px;
+}
+.p-ctn p{
+    text-align:center;
+}
+.p-ctn h6{
+    text-align:center;
+}
+.qr-image {
+    position: absolute;
+    top: -5px;
+}
+.qr-ctn {
+    padding: 0 0px 0px 122px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.qr img {
+    width: 40%;
+}
+.blackimg img{
+    width: 80%;
+    
+}
+#qr-code {
+    background-color: var(--primary-color);
+    color: white;
+    height: 420px;
+    position: relative;
+}
+.school-ctn .s-cards {
+    background-color: white;
+    padding: 10px;
+    
+}
+.school-ctn .s-cards p,h6{
+    text-align: center;
+}
+.contact-ctn {
+    background-image: url("/img/contact-bg.png");
+    color: white;
+    padding: 10px;
+    background-size: cover;
+    border-radius: 20px;
+}
+.school-ctn .s-cards {
+    background-color: white;
+    padding: 10px;
+    height: 285px;
+}
+}
+@media screen and (max-width:768px)
+{
+.hero-imgctn {
+    margin-top: -0px;
+}
+#hero-banner {
+    margin-top: 305px;
+}
+.cards {
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+    height: 150px;
+}
+.p-ctn1 {
+    padding: 5px;
+    background: linear-gradient(1deg,white, #dee5ec );
+    border-radius: 10px;
+    height: 105px;
+}
+.p-ctn2 {
+    padding: 5px;
+    background: linear-gradient(1deg,white, #dee5ec );
+    border-radius: 10px;
+    height: 105px;
+}
+.qr-image img {
+    /* max-width: 420px; */
+    /* width: 86%; */
+    /* height: auto; */
+    display: none;
+}
+.comtro-ctn .row {
+    gap: 20px;
+}
+.school-ctn .s-cards {
+    background-color: white;
+    padding: 10px;
+    height: 160px;
+}
+.banner-box {
+    padding: 5px;
+    
+}
+}
+@media screen and (max-width:768px)
+{
+ .banner {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 40px 0px;
+}
+#hero-banner{
+    padding: 10px;
+}
+}
+
